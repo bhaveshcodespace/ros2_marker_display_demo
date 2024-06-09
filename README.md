@@ -1,4 +1,4 @@
-### Run below command in terminal to creat ROS2 WORKSPACE
+### Run below command in terminal to create ROS2 WORKSPACE
 ./create_ros2_workpace.sh 
 
 ### Run below command in terminal to create new rclpy pkg
@@ -10,10 +10,10 @@ ros2 run marker_display sub
 ros2 run rviz2 rviz2 (make sure to select topic from topic window in rviz)
 
 ### Abotu marker_display pkg
-## 1.Config folder inside marker_display contain path.xml --> Path/Edges data
-## 2. Inside marker_display there are two files
-#    1. pathpoint_publisher.py for data extraction forn path.xml file and send data over /data_topic.
-#    2. pathpoint_subscriber.py for receive data from /data_topic and publish to over /marker_topic as #    marker msg so that rviz2 read that topic and display in rviz2.
+- 1.Config folder inside marker_display contain path.xml --> Path/Edges data
+- 2. Inside marker_display there are two files
+ -    1. pathpoint_publisher.py for data extraction forn path.xml file and send data over /data_topic.
+ -    2. pathpoint_subscriber.py for receive data from /data_topic and publish to over /marker_topic as -    marker msg so that rviz2 read that topic and display in rviz2.
 
 
 
