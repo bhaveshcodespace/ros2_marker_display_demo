@@ -1,0 +1,106 @@
+<data>
+    <edge>
+        <id>0</id>
+        <points>
+            
+            <ep>
+                <x>0</x>
+                <y>0</y>
+            </ep>
+            <ep>
+                <x>0.5</x>
+                <y>0</y>
+            </ep>
+            <ep>
+                <x>1</x>
+                <y>0</y>
+            </ep>
+            <ep>
+                <x>1.5</x>
+                <y>0</y>
+            </ep>
+            
+            <ep>
+                <x>2.0</x>
+                <y>0</y>
+            </ep>
+        </points>
+    </edge>
+    <edge>
+        <id>1</id>
+        <points>
+            
+            <ep>
+                <x>2.0</x>
+                <y>0.5</y>
+            </ep>
+            <ep>
+                <x>2.0</x>
+                <y>1</y>
+            </ep>
+            <ep>
+                <x>2.0</x>
+                <y>1.5</y>
+            </ep>
+            <ep>
+                <x>2.0</x>
+                <y>2.0</y>
+            </ep>
+            <!-- Loop ends, back to (0, 0) -->
+            <ep>
+                <x>2.0</x>
+                <y>2.5</y>
+            </ep>
+        </points>
+    </edge>
+    <edge>
+        <id>2</id>
+        <points>
+            
+            <ep>
+                <x>1.5</x>
+                <y>2.5</y>
+            </ep>
+            <ep>
+                <x>1</x>
+                <y>2.5</y>
+            </ep>
+            <ep>
+                <x>0.5</x>
+                <y>2.5</y>
+            </ep>
+            <ep>
+                <x>0</x>
+                <y>2.5</y>
+            </ep>
+            
+        </points>
+    </edge>
+    <edge>
+        <id>3</id>
+        <points>
+            
+            <ep>
+                <x>0</x>
+                <y>2</y>
+            </ep>
+            <ep>
+                <x>0</x>
+                <y>1.5</y>
+            </ep>
+            <ep>
+                <x>0</x>
+                <y>1</y>
+            </ep>
+            <ep>
+                <x>0</x>
+                <y>0.5</y>
+            </ep>
+            <!-- Loop ends, back to (0, 0) -->
+            <ep>
+                <x>0</x>
+                <y>0</y>
+            </ep>
+        </points>
+    </edge>
+</data>
